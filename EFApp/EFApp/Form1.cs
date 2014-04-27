@@ -39,6 +39,8 @@ namespace EFApp
                 if (cmbCountry.SelectedIndex > 0)
                     customers = customers.Where(c => c.Country == cmbCountry.SelectedItem );
                 dgvCustomers.DataSource = customers;
+				int z = 0;
+				z++;
             }
         }
 
